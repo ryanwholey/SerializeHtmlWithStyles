@@ -1,0 +1,21 @@
+{
+  "name": "SerializeHtmlWithStyles",
+  "version": "1.0.0",
+  "description": "Returns a string of html with inline styles computed at calltime",
+  "main": "serializeHtmlWithStyles.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [],
+  "author": "Ryan Wholey ",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantom": "^2.0.10",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
